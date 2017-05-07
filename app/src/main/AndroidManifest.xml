@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.wowstoreapp.app">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_label"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="it.wowstoreapp.app.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="it.wowstoreapp.app.Contattaci" android:label="@string/contattaci" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.ListaTablet" android:label="@string/TBlist" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.ChiSiamoActivity" android:label="@string/chisiamo" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.InfoActivity" android:label="@string/infoLabel" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.NegoziActivity" android:label="@string/negozi" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.ListaAccSorveglianza" android:label="@string/SVlist" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.ListaAndroidWear" android:label="@string/AWlist" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.ListaSmartphone" android:label="@string/SPlist" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.ListaAndroidTV" android:label="@string/ATlist" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.ConsegneActivity" android:label="@string/consegne" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.RiparazioniActivity" android:label="@string/riparazioni" android:screenOrientation="portrait"></activity>
+        <activity android:name="it.wowstoreapp.app.DettagliProdotto" android:label="Dettagli Prodotto" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

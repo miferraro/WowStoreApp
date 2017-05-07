@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WowStore</string>
+    <string name="app_label">Wow Store</string>
+    <string name="benvenuto">Benvenuto in Wow Store!</string>
+    <string name="smartphone">Smartphone</string>
+    <string name="tablet">Tablet</string>
+    <string name="atv">Android TV</string>
+    <string name="awear">Android Wear</string>
+    <string name="sorv">Sorveglianza</string>
+    <string name="info">Info Point</string>
+    <string name="logoWow">LogoWowStore</string>
+    <string name="SPlist">Wow Smartphone</string>
+    <string name="TBlist">Wow Tablet</string>
+    <string name="AWlist">Wow Wear</string>
+    <string name="ATlist">Wow TV</string>
+    <string name="SVlist">Wow Sorveglianza</string>
+    <string name="infoLabel">Info su Wow Store</string>
+    <string name="infopoint">Wow Store è il marchio che rappresenta la convenienza, la tecnologia più alta al prezzo più basso.</string>
+    <string name="chisiamotext">Il nostro punto vendita è a Treviso in Viale Repubblica 151, da diversi anni collaboriamo e riforniamo di nostri prodotti molti altri negozi e catene di distribuzione, e poiché il nostro motto è quello di portare nelle case dei nostri clienti la migliore tecnologia al prezzo più basso, consigliamo acquisti online, per ridurre ulteriormente i costi di gestione che incidono poi nel prezzo finale.</string>
+    <string name="chisiamo">Chi Siamo</string>
+    <string name="negozi">Punti Vendita</string>
+    <string name="telefono">Telefono: 0422-1990542 - 049-2956350</string>
+    <string name="contatti">Telefono: 0422-1990542 - 049-2956350 \n\n Email: info@offertedanonperdere.it</string>
+    <string name="telPD">049-2956350</string>
+    <string name="telTV">0422-1990542</string>
+    <string name="telVI">0424-411675</string>
+    <string name="email">Email: info@offertedanonperdere.it</string>
+    <string name="indSedeTV">Viale Repubblica 151, 31100 Treviso \n 0422-1990542</string>
+    <string name="indSedePD">Via Beato Pellegrino 89, 35137 Padova \n 049-2956350</string>
+    <string name="indSedeVI">c/o Axial Consulting Srl, Via Roma 10, 36060 Molvena(VI) \n 0424-411675</string>
+    <string name="riparazioni">Riparazioni</string>
+    <string name="contattaci">Contattaci</string>
+    <string name="consegne">Consegne</string>
+    <string name="consegneText">I pacchi sono generalmente inviati entro 2 giorni dal ricevimento del pagamento e vengono spediti tramite SDA con tracciatura e consegna con firma per ricezione. Se preferite una consegna con DHL , verrà applicato un costo aggiuntivo, quindi vi preghiamo di contattarci prima di scegliere questo metodo. Qualsiasi tipo di spedizione scegliate, vi forniremo un link per tracciare il vostro pacco online. \nLe spese di spedizione comprendono gli oneri di gestione e imballaggio e le spese postali. I costi di gestione sono fissi, mentre i costi di trasporto variano a seconda del peso totale della spedizione. Vi consigliamo di raggruppare i vostri articoli in un unico ordine. Non ci è possibile raggruppare due ordini distinti effettuati separatamente, pertanto le spese di spedizione saranno addebitate per ognuno di essi.\n Le scatole hanno dimensioni adeguatamente ampie e i vostri articoli son ben protetti.</string>
+
+    <string name="feedbacktype1">Informazioni</string>
+    <string name="feedbacktype2">Lamentela</string>
+    <string name="feedbacktype3">Suggerimento</string>
+    <string name="feedbacktype4">Problema</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wowstore"
+        android:contentDescription="@string/logoWow" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="nome"
+        android:ems="10"
+        android:id="@+id/editTextNome"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:ems="10"
+        android:id="@+id/editTextMail"
+        android:layout_below="@+id/editTextNome"
+        android:layout_alignLeft="@+id/editTextNome"
+        android:layout_alignStart="@+id/editTextNome"
+        android:layout_alignRight="@+id/editTextNome"
+        android:layout_alignEnd="@+id/editTextNome" />
+
+    <Spinner
+        android:id="@+id/SpinnerFeedbackType"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/editTextMail"
+        android:entries="@array/feedbacktypelist"
+        android:layout_alignLeft="@+id/editTextMail"
+        android:layout_alignStart="@+id/editTextMail"
+        android:layout_alignRight="@+id/editTextMail"
+        android:layout_alignEnd="@+id/editTextMail">
+    </Spinner>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:lines="5"
+        android:id="@+id/editTextTesto"
+        android:layout_below="@+id/SpinnerFeedbackType"
+        android:layout_alignLeft="@+id/SpinnerFeedbackType"
+        android:layout_alignStart="@+id/SpinnerFeedbackType"
+        android:layout_alignRight="@+id/SpinnerFeedbackType"
+        android:layout_alignEnd="@+id/SpinnerFeedbackType" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invia"
+        android:id="@+id/buttonInviaMail"
+        android:layout_below="@+id/editTextTesto"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contatti"
+        android:id="@+id/textViewContatti"
+        android:layout_below="@+id/buttonInviaMail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:autoLink="phone|email"/>
+
+
+</RelativeLayout>

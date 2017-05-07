@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewDettagli"
+        android:src="@drawable/smartphones"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Modello"
+        android:id="@+id/textViewModello"
+        android:layout_alignTop="@+id/imageViewDettagli"
+        android:layout_toRightOf="@+id/imageViewDettagli"
+        android:layout_toEndOf="@+id/imageViewDettagli"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Marchio"
+        android:id="@+id/textViewMarchio"
+        android:layout_below="@+id/textViewModello"
+        android:layout_toRightOf="@+id/imageViewDettagli"
+        android:layout_toEndOf="@+id/imageViewDettagli"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="100€"
+        android:id="@+id/textViewPrezzo"
+        android:layout_alignBottom="@+id/imageViewDettagli"
+        android:layout_toRightOf="@+id/imageViewDettagli"
+        android:layout_toEndOf="@+id/imageViewDettagli"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:scrollbars = "vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Descrizione"
+        android:id="@+id/textViewDescrizione"
+        android:layout_below="@+id/textViewPrezzo"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"/>
+</RelativeLayout>

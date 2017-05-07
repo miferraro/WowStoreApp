@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewINFO"
+        android:src="@drawable/infopoint"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/infopoint"
+        android:id="@+id/textViewInf"
+        android:layout_below="@+id/imageViewINFO"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewInf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/menuInfo">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/chisiamo"
+            android:id="@+id/buttonCS"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"
+            android:layout_above="@+id/buttonPV"
+            android:layout_alignLeft="@+id/buttonPV"
+            android:layout_alignStart="@+id/buttonPV"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/negozi"
+            android:id="@+id/buttonPV"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"
+            android:layout_above="@+id/buttonConsegne"
+            android:layout_alignLeft="@+id/buttonConsegne"
+            android:layout_alignStart="@+id/buttonConsegne"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/contattaci"
+            android:id="@+id/buttonContact"
+            android:layout_below="@+id/buttonRip"
+            android:layout_alignLeft="@+id/buttonConsegne"
+            android:layout_alignStart="@+id/buttonConsegne"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/riparazioni"
+            android:id="@+id/buttonRip"
+            android:layout_below="@+id/buttonConsegne"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="@string/consegne"
+            android:id="@+id/buttonConsegne"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_selector"
+            android:textColor="#ffffff"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
